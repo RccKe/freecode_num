@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Pacifico&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Aoboshi One', serif;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+button:hover {
+  border: 1px solid #fff;
+  color: #000;
+}
+
+body {
+  background-color: #C2C2D6;
+  text-align: center;
+}
+
+#box {
+  width: 21.6rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+#clear, #zero {
+  height: 5.4rem;
+  width: 10.8rem;
+}
+
+#equals {
+  height: 10.8rem;
+  width: 5.4rem;
+  position: relative;
+  left: 0%;
+  background-color: #004466;
+}
+
+#divide {
+  position: absolute;
+  left: 50%;
+  top: 15.7%;
+  background-color: #666666;
+}
+
+#multiply {
+  position: absolute;
+  left: 75%;
+  top: 15.7%;
+  background-color: #666666;
+}
+
+#subtract {
+  position: absolute;
+  right: 0%;
+  top: 36.7%;
+  background-color: #666666;
+}
+
+#add {
+  position: absolute;
+  right: 0%;
+  top: 57.7%;
+  background-color: #666666;
+}
+
+#equals {
+  position: absolute;
+  left: 75%;
+  top: 78.7%;
+}
+
+
+#allNum {
+  width: 16.2rem;
+}
+
+#allNum > button {
+  background-color: #4D4D4D;
+}
+
+#zero {
+  position: absolute;
+  left: 0%;
+  top: 100%;
+}
+
+#decimal {
+  position: absolute;
+  top: 100%;
+  background-color: #4D4D4D;
+}
+
+#display {
+  width: 100%;
+  height: 4rem;
+  background-color: #000;
+}
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine,
+#add,
+#subtract,
+#multiply,
+#divide,
+#decimal{
+  height: 5.4rem;
+  width: 5.4rem;
+}
+
+#allGc {
+  text-align: right;
+}
+
+#clear {
+  position: relative;
+  left: -25%;
+  background-color: #AC3939;
+}
